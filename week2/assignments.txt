@@ -1,0 +1,21 @@
+Exercise 2.1:
+
+Write a script with two methods. The first method should read in a 
+matrix like the one here and save it as an array of arrays. The second 
+method should do the inverse, namely save an array of arrays to a file. 
+The methods should take the file name as a parameter from the command 
+line.
+
+Exercise 2.2:
+
+Write a script that takes an integer N, and outputs all bit-strings of 
+length N as lists. For example: 3 -> [0,0,0], 
+[0,0,1],[0,1,0],[0,1,1],[1,0,0],[1,0,1],[1,1,0],[1,1,1]. As a sanity 
+check, remember that there are 2^N such lists.
+
+Exercise 2.3:
+
+Write a script that takes this file (from this Kaggle competition), 
+extracts the request_text field from each dictionary in the list, and 
+construct a bag of words representation of the string (string to 
+count-list).
