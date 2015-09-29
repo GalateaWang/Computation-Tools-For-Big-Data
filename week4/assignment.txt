@@ -1,0 +1,17 @@
+Exercise 4.1:
+
+Implement the DBSCAN clustering algorithm to work with Jaccard-distance 
+as its metric. It should be able to handle sparse data.
+
+We suggest that you implement the DBSCAN clustering algorithm as 
+described in the Wikipedia article, linked to above. The algorithm 
+should use Jaccard-distance (1 minus Jaccard index) when measuring 
+distance between points. In this exercise two points that are exactly a 
+distance epsilon apart are taken to be in the same cluster, thus 
+greater-than-or-equal dist(a, b) <= epsilon and not dist(a, b) < epsilon 
+should be used.
+
+Your method should support a large number (~100,000) of sparse points in 
+very high-dimensional space (~100,000 dimensions). This means that the 
+points – even though they lie in very high dimensional space – only have 
+few non-zero coordinates.
