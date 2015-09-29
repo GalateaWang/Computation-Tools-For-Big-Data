@@ -1,0 +1,43 @@
+[
+    {
+        "giver_username_if_known": "N/A", 
+        "number_of_downvotes_of_request_at_retrieval": 0, 
+        "number_of_upvotes_of_request_at_retrieval": 1, 
+        "post_was_edited": false, 
+        "request_id": "t3_l25d7", 
+        "request_number_of_comments_at_retrieval": 0, 
+        "request_text": "Hi", 
+        "request_text_edit_aware": "Hi I am in need of food for my 4 children we are a military means of" 
+     
+    }
+]
+
+[
+    {
+        "request_text": "Hi my name is max",
+    }
+]
+
+
+
+[
+    {
+	"request_text": "my MAX",
+    }
+]
+
+[
+    {
+        "request_text": "name 225f3 2f2 2f a3",
+    }
+]
+
+
+[
+    {
+        "request_text": "
+",
+    }
+]
+
+
