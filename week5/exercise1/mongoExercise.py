@@ -1,11 +1,23 @@
 #!C:/Users/Max/Anaconda/Python
 import pymongo as pm
 client = pm.MongoClient()
+db = client.Northwind
 
-db = client.test_database
+collection = db.regions
 
-collection = db.test_collection
 
-posts = db.posts
+print "inserting object"
+result = collection.insert_one({'x':1})
 
-print posts.find_one()
+print "successfully added object"
+print collection.inserted_id
+
+print "searching for object"
+print collection.find({'x':1})
+
+print "deleting object"
+result = collection.delete_one({'x':1})
+print "successfully deleted object"
+
+#Look for object after deletion
+print collection.find_one({'x':1})
