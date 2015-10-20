@@ -1,0 +1,6 @@
+MATCH (n { customerID: "ALFKI" })-[r:ORDERS]->(c) 
+RETURN n.orderID, r.productID
+
+
+// n is nodes for orders, contains orderID
+// r is relationships for ORDERS, contains productID

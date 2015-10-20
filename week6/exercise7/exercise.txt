@@ -1,0 +1,5 @@
+MATCH (cust)-[p:ORDERS]->(products)
+WHERE cust.customerID="ALFKI"
+MATCH (cust2)-[q:ORDERS]->(products)
+WHERE NOT (cust2.customerID="ALFKI")
+RETURN DISTINCT cust2.customerID

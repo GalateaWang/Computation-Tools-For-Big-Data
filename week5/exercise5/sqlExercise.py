@@ -43,4 +43,4 @@ for order in orders:
 # Print results
 print "The number of different products purchased by pear-purchasing customers is: ", len(products)
 print "The productIDs of those products are shown here:"
-print products
+print sorted(products)

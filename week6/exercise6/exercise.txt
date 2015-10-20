@@ -1,0 +1,7 @@
+MATCH (cust)-[r:PURCHASED]->(orderID)-[p:ORDERS]->(prodID)
+WHERE prodID.productID="7"
+MATCH (cust)-->(allOrders)-[g:ORDERS]->(allProds)
+WHERE NOT (allProds.productID="7")
+RETURN DISTINCT (allProds).productID AS OtherProducts, count(DISTINCT g)
+ORDER BY -1*count(DISTINCT g)
+LIMIT 1

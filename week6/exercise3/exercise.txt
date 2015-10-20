@@ -1,0 +1,6 @@
+MATCH (n { customerID: "ALFKI" })--(order)-->()
+WITH order, count(*) AS numProducts
+WHERE numProducts > 1
+MATCH (order)-[r:ORDERS]->(c)
+RETURN order.orderID, r.productID
+

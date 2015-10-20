@@ -1,0 +1,2 @@
+MATCH (n)-[r:ORDERS]->(c { productID: "7"})
+RETURN DISTINCT n.customerID, sum(r.quantity)
