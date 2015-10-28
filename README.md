@@ -14,9 +14,9 @@ week5:	SQL and NoSQL
 
 week6:	Graph Databases
 
-week7:
+week7:	Streaming Algorithms
 
-week8:
+week8:	MapReduce and mrjob Python library
 
 week9:
 
