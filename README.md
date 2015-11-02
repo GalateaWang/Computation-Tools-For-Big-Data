@@ -18,7 +18,7 @@ week7:	Streaming Algorithms
 
 week8:	MapReduce and mrjob Python library
 
-week9:
+week9:	Apache Spark
 
 week10:
 
