@@ -1,0 +1,1 @@
+Greg made exercises 2 and 3 more efficient by getting rid of the first Map

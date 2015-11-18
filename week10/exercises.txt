@@ -1,0 +1,41 @@
+Exercise 1:
+
+Start by watching the following video: 
+https://www.youtube.com/watch?v=fVkSY0GYWXY
+
+Explain in your own words what Deep Learning is.
+
+Should be between 100 and 500 words.
+
+Exercise 2:
+
+Read the following tutorial: 
+http://colah.github.io/posts/2014-07-Conv-Nets-Modular/
+
+Explain in your own words what a Convolutional Neural Network is.
+
+Should be between 200 and 500 words.
+
+Exercise 3:
+
+In this exercise you will be using the Caffe Deep Learning framework to 
+classify a picture of a cat, and a picture of your own choosing. We have 
+provided a virtual machine (through vagrant) that has Caffe installed.
+
+Download this Vagrantfile
+Start the virtual machine by running vagrant up in the folder where you 
+saved the Vagrantfile. (Note: You may get a bunch of “default: Warning: 
+Remote connection disconnect. Retrying...“-messages, these can be 
+ignored. Just wait a minute or two, then go to the next step)
+Go to http://localhost:8003 in your browser. This should open an 
+iPython/Jupyter notebook.
+Open the file 00-classification.ipynb in the iPython/Jupyter notebook. 
+Follow and run the steps in the notebook until the block titled “How 
+long did it take”.
+Find your own test picture, and upload it to the virtual machine via 
+iPython/Jupyter. The file is then available in the directory 
+/home/vagrant/caffe/examples. Try classifying your own test picture in 
+the notebook (this can be done simply by changing the path to the cat 
+image used to the file you just uploaded).
+Show your results for both the default cat picture and your own choice 
+of picture in the report. How well does it perform?
