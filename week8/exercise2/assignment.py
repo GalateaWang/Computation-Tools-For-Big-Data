@@ -24,7 +24,8 @@ class MRWordFrequencyCount(MRJob):
 	def reducer(self, key, values):
 		yield None, sum(values)
 	
-	# Reduces to a single output, checks if counts are all even
+	# Reduces to a single output, 
+	# checks if counts are all even
 	def reducer_if_euler(self, _, edge_count_pairs):
 		yield "Graph has a Euler Tour:", self.checkEven(edge_count_pairs)
 	

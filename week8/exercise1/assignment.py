@@ -9,9 +9,6 @@ class MRWordFrequencyCount(MRJob):
 		words = words.lower().split()
 		for word in words:
 			yield word, 1
-		#yield "chars", len(line)
-		#yield "words", len(line.split())
-		#yield "lines", 1
 		
 		
 	def reducer(self, key, values):
