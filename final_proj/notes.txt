@@ -1,0 +1,9 @@
+Amazon Machine Learning uses Linear Regression to predict target
+
+Tutorial
+http://docs.aws.amazon.com/machine-learning/latest/dg/tutorial.html
+
+1. Upload data
+2. Create Datasource
+3. Create model
+
